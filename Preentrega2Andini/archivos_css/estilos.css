@@ -1,0 +1,165 @@
+.listas_nav{
+    list-style-type: none;
+    display: inline-block;
+}
+.links_menu{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    border-left: solid black 1px;
+}
+.logo{
+    padding-right: 10em;
+    width: 8em;
+}
+.listas_flotantes{
+    float: left;
+}
+
+td{
+    width: 10em;
+}
+table,td,th  {
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    
+}
+.links_redes{
+    color: black;
+    text-decoration: none;
+    padding-left: 15em;
+    
+}
+.lista_redes{
+    padding-top: 2em;
+    list-style-type: none;
+    display: inline-block;
+}
+nav{
+    display: block;
+    text-align: center;
+    border-bottom: solid black 1px;
+    margin-bottom: 3em;
+}
+.tabla_home{
+    padding-left: 30em;
+    padding-bottom: 5em;
+    padding-right: 10em;
+}
+.banner{
+    padding-left: 32em;
+    padding-bottom: 3em;
+}
+.cursos{
+    padding-top: 2em;
+    padding-left: 10em;
+    padding-bottom: 2em;
+}
+.texto_institucional{
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 4em;
+}
+.texto_servicios{
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+.texto_educacion{
+    padding-left: 10em;
+    padding-right: 10em;
+    text-align: center;
+}
+.texto_index{
+    padding-left: 1em;
+    padding-right: 1em;
+    list-style-type: none;
+}
+.texto_index_grande{
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 2em;
+}
+.formulario{
+    padding-left: 34em;
+    width: 48em;
+    height: 35em;
+
+}
+.formato_form{
+    border: solid 2px transparent;
+    width: 14em;
+    height: fit-content;
+    background: #95e1d7;
+    padding-left: 2em;
+}
+.etiquetas{
+    text-align: left;
+}
+#mensaje{
+    height: 10em;
+    width: 14.4em;
+}
+#enviar{
+    width: 14.8em;
+}
+#nombre{
+    width: 14.4em;
+}
+#email{
+    width: 14.4em;
+}
+#telefono{
+    width: 14.4em;
+}
+.facebook{
+    width: 5em;
+}
+.instagram{
+    width: 5em;
+}
+.twitter{
+    width: 5em;
+}
+.titulo{
+    text-align: center;
+}
+.persona1{
+    width: 15em;
+}
+.persona2{
+    width: 20em;
+}
+.persona3{
+    width:26.55em;
+}
+.lista_clientes{
+    width: 31em;
+}
+.microsoft{
+    width: 10em;
+}
+li{
+ list-style-type: none;
+}
+.lider1{
+    width: 15em;
+}
+.lider2{
+    width: 20em;
+}
+.lider3{
+    width:26.55em;
+}
+body{
+    background: lemonchiffon;
+}
