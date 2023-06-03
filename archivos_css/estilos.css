@@ -1,21 +1,36 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
 .listas_nav{
     list-style-type: none;
-    display: inline-block;
+    display: inline-flex;
+    gap: 7em;
+}
+.listas_nav_links{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 11vh;
 }
 .links_menu{
+    display: flex;
     color: black;
     text-decoration: none;
     text-align: center;
-    padding-left: 5em;
-    padding-right: 5em;
-    border-left: solid black 1px;
+    align-items: center;
+    width: 6vw;
+    height: 11vh;
+    justify-content: center;
 }
 .logo{
-    padding-right: 10em;
     width: 8em;
 }
 .listas_flotantes{
-    float: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 td{
@@ -35,64 +50,92 @@ footer{
 .links_redes{
     color: black;
     text-decoration: none;
-    padding-left: 15em;
     
 }
 .lista_redes{
-    padding-top: 2em;
     list-style-type: none;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: space-evenly;
 }
 nav{
-    display: block;
-    text-align: center;
+    display: flex;
     border-bottom: solid black 1px;
     margin-bottom: 3em;
+    align-items: center;
+    justify-content: space-around;
 }
-.tabla_home{
-    padding-left: 30em;
+.tabla_servicios{
     padding-bottom: 5em;
-    padding-right: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .banner{
-    padding-left: 32em;
     padding-bottom: 3em;
+    display: flex;
+    justify-content: center;
 }
 .cursos{
     padding-top: 2em;
-    padding-left: 10em;
     padding-bottom: 2em;
+    display: flex;
 }
 .texto_institucional{
     padding-left: 10em;
     padding-right: 10em;
     padding-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
 }
 .texto_servicios{
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
     padding-left: 10em;
     padding-right: 10em;
-    padding-bottom: 2em;
-    text-align: center;
+}
+.articulo_servicios{
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
 }
 .texto_educacion{
     padding-left: 10em;
     padding-right: 10em;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cursos_educacion{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
 }
 .texto_index{
-    padding-left: 1em;
-    padding-right: 1em;
     list-style-type: none;
 }
 .texto_index_grande{
-    padding-left: 10em;
-    padding-right: 10em;
     padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+.listas_cert{
+    display: inline-flex;
+    gap: 4em;
 }
 .formulario{
-    padding-left: 34em;
-    width: 48em;
-    height: 35em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5em;
 
 }
 .formato_form{
@@ -162,4 +205,109 @@ li{
 }
 body{
     background: lemonchiffon;
+}
+.boton_redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stilo_footer{
+    background-color: black;
+    color: white;
+}
+.links_menu:hover{
+background-color:tomato;
+color: white;
+}
+.nuestros_lideres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 425px){
+    #menu_desktop{
+        display: none;
+        margin-bottom: 0px;
+    }
+    nav {
+        display: flex;
+        border-bottom: solid black 1px;
+        margin-bottom: 3em;
+        align-items: center;
+        justify-content: normal;
+    }
+    video{
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+    .listas_cert {
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .lista_clientes {
+        width: 17em;
+    }
+    .persona3 {
+        width: 15.55em;
+    }  
+    .persona2 {
+        width: 15em;
+    }  
+    .lista_cientes_mobile{
+        display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+    }
+    .lista_redes {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        width: -webkit-fill-available;
+        flex-direction: column;
+        gap: 2em;
+        padding-left: 0px;
+    }
+    .texto_educacion {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .texto_servicios {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .tabla_servicios{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .articulo_servicios {
+        gap: 5em;
+    }
+    .texto_institucional {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .lider2 {
+        width: 17em;
+    }
+    .lider3 {
+        width: 16.55em;
+    }
+    ul{
+        padding-left: 0px;
+    }
+    .formulario {
+        padding-left: 1em;
+        width: auto;
+        padding-right: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 3em;
+    }
+    
+    
 }
