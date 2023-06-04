@@ -383,4 +383,9 @@ text-decoration: none;
     #menu_mobile{
         display: block;
     }
+    .stilo_footer {
+        background-color: black;
+        color: white;
+        height: 3em;
+    }
 }
