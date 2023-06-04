@@ -138,9 +138,12 @@ nav{
     gap: 5em;
 
 }
+#menu_mobile{
+    display: none;
+}
 .formato_form{
     border: solid 2px transparent;
-    width: 14em;
+    width: 19em;
     height: fit-content;
     background: #95e1d7;
     padding-left: 2em;
@@ -214,17 +217,78 @@ body{
 .stilo_footer{
     background-color: black;
     color: white;
+    height: 2em;
 }
 .links_menu:hover{
 background-color:tomato;
 color: white;
 }
+
 .nuestros_lideres{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+@media (max-width: 768px){
+    .texto_institucional {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .texto_servicios {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .texto_educacion {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    #menu_mobile{
+        display: block;
+    }
+    #menu_desktop{
+        display: none;
+        margin-bottom: 0px;
+    }
+    .btn{
+        width: 40em;
+        height: 6em;
+    }
+    nav {
+        display: flex;
+        border-bottom: solid black 1px;
+        margin-bottom: 3em;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0px;
+        background: gainsboro;
+    }
+    .listas_nav{
+        display: inline-flex;
+        gap: 4em;
+    }
+    .dropdown-menu.show {
+        width: -webkit-fill-available;
+    }
+    .listas_nav_links {
+       border: none;
+    }
+    .lista_clientes_tablet{
+        display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+    }
+    .banner{
+        display: none;
+    }
+}
 @media (max-width: 425px){
+    .listas_nav{
+        display: flex;
+    flex-direction: column;
+    gap: 0px;
+    }
     #menu_desktop{
         display: none;
         margin-bottom: 0px;
@@ -234,7 +298,11 @@ color: white;
         border-bottom: solid black 1px;
         margin-bottom: 3em;
         align-items: center;
-        justify-content: normal;
+        justify-content: space-between;
+    }
+    .btn{
+        width: 10em;
+        height: 6em;
     }
     video{
         width: -webkit-fill-available;
@@ -255,7 +323,7 @@ color: white;
     .persona2 {
         width: 15em;
     }  
-    .lista_cientes_mobile{
+    .lista_clientes_mobile{
         display: flex;
     flex-direction: column;
     padding-left: 0px;
@@ -308,6 +376,7 @@ color: white;
         height: auto;
         gap: 3em;
     }
-    
-    
+    #menu_mobile{
+        display: block;
+    }
 }
