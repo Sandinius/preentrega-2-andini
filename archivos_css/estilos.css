@@ -226,6 +226,7 @@ body{
 .links_menu:hover{
 background-color:tomato;
 color: white;
+text-decoration: none;
 }
 
 .nuestros_lideres{
