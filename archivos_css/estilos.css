@@ -83,8 +83,6 @@ nav{
     display: flex;
 }
 .texto_institucional{
-    padding-left: 10em;
-    padding-right: 10em;
     padding-bottom: 4em;
     display: flex;
     flex-direction: column;
