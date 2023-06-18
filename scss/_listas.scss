@@ -1,0 +1,23 @@
+.lista_redes{
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: space-evenly;
+}
+.listas_cert{
+    display: inline-flex;
+    gap: 4em;
+}
+li{
+    list-style-type: none;
+}
+.listas_flotantes{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lista_clientes{
+    width: 31em;
+}

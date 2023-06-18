@@ -1,0 +1,156 @@
+@media (max-width: 768px){
+    .texto_institucional {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .texto_servicios {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .texto_educacion {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    #menu_mobile{
+        display: block;
+    }
+    #menu_desktop{
+        display: none;
+        margin-bottom: 0px;
+    }
+    .btn{
+        width: 40em;
+        height: 6em;
+    }
+    nav {
+        display: flex;
+        border-bottom: solid black 1px;
+        margin-bottom: 3em;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0px;
+        background: gainsboro;
+    }
+    .listas_nav{
+        display: inline-flex;
+        gap: 4em;
+    }
+    .dropdown-menu.show {
+        width: -webkit-fill-available;
+    }
+    .listas_nav_links {
+       border: none;
+    }
+    .lista_clientes_tablet{
+        display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+    }
+    .banner{
+        display: none;
+    }
+}
+@media (max-width: 425px){
+    .listas_nav{
+        display: flex;
+    flex-direction: column;
+    gap: 0px;
+    }
+    #menu_desktop{
+        display: none;
+        margin-bottom: 0px;
+    }
+    nav {
+        display: flex;
+        border-bottom: solid black 1px;
+        margin-bottom: 3em;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .btn{
+        width: 10em;
+        height: 6em;
+    }
+    video{
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+    .listas_cert {
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .lista_clientes {
+        width: 17em;
+    }
+    .persona3 {
+        width: 15.55em;
+    }  
+    .persona2 {
+        width: 15em;
+    }  
+    .lista_clientes_mobile{
+        display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+    }
+    .lista_redes {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        width: -webkit-fill-available;
+        flex-direction: column;
+        gap: 2em;
+        padding-left: 0px;
+    }
+    .texto_educacion {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .texto_servicios {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .tabla_servicios{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .articulo_servicios {
+        gap: 5em;
+    }
+    .texto_institucional {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .lider2 {
+        width: 17em;
+    }
+    .lider3 {
+        width: 16.55em;
+    }
+    ul{
+        padding-left: 0px;
+    }
+    .formulario {
+        padding-left: 1em;
+        width: auto;
+        padding-right: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 3em;
+    }
+    #menu_mobile{
+        display: block;
+    }
+    .stilo_footer {
+        background-color: black;
+        color: white;
+        height: 3em;
+    } 
+}

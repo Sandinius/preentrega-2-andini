@@ -1,0 +1,36 @@
+.texto_index_grande{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+.texto_institucional{
+    padding-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+.texto_servicios{
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+.texto_educacion{
+    padding-left: 10em;
+    padding-right: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+.titulo{
+    text-align: center;
+}
+.texto_index{
+    list-style-type: none;
+}

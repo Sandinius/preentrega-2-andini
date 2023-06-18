@@ -1,0 +1,437 @@
+footer {
+  display: block;
+  text-align: center;
+}
+
+.stilo_footer {
+  background-color: black;
+  color: white;
+  height: 2em;
+}
+
+* {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+body {
+  background: lemonchiffon;
+}
+
+nav {
+  display: flex;
+  border-bottom: solid black 1px;
+  margin-bottom: 3em;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.listas_nav {
+  list-style-type: none;
+  display: inline-flex;
+  gap: 7em;
+}
+
+.listas_nav_links {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  height: 11vh;
+}
+
+.links_menu {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  width: 6vw;
+  height: 11vh;
+  justify-content: center;
+}
+
+.links_menu:hover {
+  background-color: tomato;
+  color: white;
+  text-decoration: none;
+}
+
+#menu_mobile {
+  display: none;
+}
+
+.logo {
+  width: 8em;
+}
+
+.lista_redes {
+  list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+  width: -webkit-fill-available;
+  justify-content: space-evenly;
+}
+
+.listas_cert {
+  display: inline-flex;
+  gap: 4em;
+}
+
+li {
+  list-style-type: none;
+}
+
+.listas_flotantes {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista_clientes {
+  width: 31em;
+}
+
+.links_redes {
+  color: black;
+  text-decoration: none;
+}
+
+.boton_redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.boton_redes:hover {
+  text-decoration: none;
+}
+
+.texto_index_grande {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.texto_institucional {
+  padding-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.texto_servicios {
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.texto_educacion {
+  padding-left: 10em;
+  padding-right: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.texto_index {
+  list-style-type: none;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5em;
+}
+
+.etiquetas {
+  text-align: left;
+}
+
+.formato_form {
+  border: solid 2px transparent;
+  width: 19em;
+  height: fit-content;
+  background: #95e1d7;
+  padding-left: 2em;
+}
+
+#mensaje {
+  height: 10em;
+  width: 14.4em;
+}
+
+#enviar {
+  width: 14.8em;
+}
+
+#nombre {
+  width: 14.4em;
+}
+
+#email {
+  width: 14.4em;
+}
+
+#telefono {
+  width: 14.4em;
+}
+
+.tabla_servicios {
+  padding-bottom: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table, tr, td {
+  text-align: center;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.facebook {
+  width: 5em;
+}
+
+.instagram {
+  width: 5em;
+}
+
+.twitter {
+  width: 5em;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.persona1 {
+  width: 15em;
+}
+
+.persona2 {
+  width: 20em;
+}
+
+.persona3 {
+  width: 26.55em;
+}
+
+.microsoft {
+  width: 10em;
+}
+
+.lider1 {
+  width: 15em;
+}
+
+.lider2 {
+  width: 20em;
+}
+
+.lider3 {
+  width: 26.55em;
+}
+
+.articulo_servicios {
+  display: flex;
+  flex-direction: column;
+  gap: 6em;
+}
+
+.banner {
+  padding-bottom: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+.cursos {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: flex;
+}
+
+.cursos_educacion {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.nuestros_lideres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .texto_institucional {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .texto_servicios {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .texto_educacion {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #menu_mobile {
+    display: block;
+  }
+  #menu_desktop {
+    display: none;
+    margin-bottom: 0px;
+  }
+  .btn {
+    width: 40em;
+    height: 6em;
+  }
+  nav {
+    display: flex;
+    border-bottom: solid black 1px;
+    margin-bottom: 3em;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background: gainsboro;
+  }
+  .listas_nav {
+    display: inline-flex;
+    gap: 4em;
+  }
+  .dropdown-menu.show {
+    width: -webkit-fill-available;
+  }
+  .listas_nav_links {
+    border: none;
+  }
+  .lista_clientes_tablet {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .banner {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .listas_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  #menu_desktop {
+    display: none;
+    margin-bottom: 0px;
+  }
+  nav {
+    display: flex;
+    border-bottom: solid black 1px;
+    margin-bottom: 3em;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .btn {
+    width: 10em;
+    height: 6em;
+  }
+  video {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+  }
+  .listas_cert {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  .lista_clientes {
+    width: 17em;
+  }
+  .persona3 {
+    width: 15.55em;
+  }
+  .persona2 {
+    width: 15em;
+  }
+  .lista_clientes_mobile {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .lista_redes {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    width: -webkit-fill-available;
+    flex-direction: column;
+    gap: 2em;
+    padding-left: 0px;
+  }
+  .texto_educacion {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .texto_servicios {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .tabla_servicios {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .articulo_servicios {
+    gap: 5em;
+  }
+  .texto_institucional {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .lider2 {
+    width: 17em;
+  }
+  .lider3 {
+    width: 16.55em;
+  }
+  ul {
+    padding-left: 0px;
+  }
+  .formulario {
+    padding-left: 1em;
+    width: auto;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 3em;
+  }
+  #menu_mobile {
+    display: block;
+  }
+  .stilo_footer {
+    background-color: black;
+    color: white;
+    height: 3em;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
