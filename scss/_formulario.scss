@@ -1,4 +1,7 @@
 
+@mixin tamañocampos {
+    width:  14.4em;
+  }
 .formulario{
 display: flex;
 flex-direction: column;
@@ -17,17 +20,21 @@ gap: 5em;
 }
 #mensaje{
     height: 10em;
-    width: 14.4em;
+    @include tamañocampos;
+
 }
 #enviar{
     width: 14.8em;
 }
 #nombre{
-    width: 14.4em;
+    @include tamañocampos;
+
 }
 #email{
-    width: 14.4em;
+    @include tamañocampos;
+
 }
 #telefono{
-    width: 14.4em;
+    @include tamañocampos;
+
 }
