@@ -1,5 +1,5 @@
 
-@mixin tamañocampos {
+@mixin tamanocampos {
     width:  14.4em;
   }
 .formulario{
@@ -20,21 +20,21 @@ gap: 5em;
 }
 #mensaje{
     height: 10em;
-    @include tamañocampos;
+    @include tamanocampos;
 
 }
 #enviar{
     width: 14.8em;
 }
 #nombre{
-    @include tamañocampos;
+    @include tamanocampos;
 
 }
 #email{
-    @include tamañocampos;
+    @include tamanocampos;
 
 }
 #telefono{
-    @include tamañocampos;
+    @include tamanocampos;
 
 }
