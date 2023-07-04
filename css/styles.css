@@ -93,8 +93,8 @@ li {
 }
 
 .listas_clientes_desktop {
-  gap: 1pc;
   display: flex;
+  gap: 1pc;
 }
 
 .links_redes {
