@@ -92,6 +92,11 @@ li {
   width: 31em;
 }
 
+.listas_clientes_desktop {
+  gap: 1pc;
+  display: flex;
+}
+
 .links_redes {
   color: black;
   text-decoration: none;
