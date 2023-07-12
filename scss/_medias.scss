@@ -11,6 +11,9 @@
         padding-left: 1em;
         padding-right: 1em;
     }
+    .dropdown-menu.show {
+        display: flex;
+    }
     #menu_mobile{
         display: block;
     }
@@ -27,7 +30,7 @@
         border-bottom: solid black 1px;
         margin-bottom: 3em;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         position: sticky;
         top: 0px;
         background: gainsboro;
@@ -67,7 +70,7 @@
         border-bottom: solid black 1px;
         margin-bottom: 3em;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .btn{
         width: 10em;

@@ -6,85 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Somos una empresa que se encarga de dar cursos de Sap, microsoft, azure, DevOPS. Contamos con certificaciones de microsoft y SAP. ">
     <meta name="keywords" content="SAP, Azure, Microsoft, Cursos, Redes, Clientes, Certificaciones">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./fotos_y_videos/favicon.jpg">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Home de la pagina</title>
 </head>
-<!--Navbar de la pagina -->
-<nav>
-    <a href="./index.html"><img class="logo"src="./fotos_y_videos/galletita.jpg" alt="logo"></a>
-    <!--Menu Mobile-->
-    <div id="menu_mobile" class="btn-group">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-           Menu
-        </button>
-        <div class="dropdown-menu">
-            <ul  class="listas_nav">
+
+<body>
+    <header>
+        <!--Navbar de la pagina -->
+        <nav>
+            <a href="./index.html"><img class="logo"src="./fotos_y_videos/logo-removebg-preview.png" alt="logo"></a>
+            <!--Menu Mobile-->
+            <div id="menu_mobile" class="btn-group">
+                <li class="nav-item dropdown ">
+                    <a style="font-size:24px" class="nav-link  fa fa-bars" data-bs-toggle="dropdown" href="#">Menu</a>
+                    <ul class="dropdown-menu  flex-column">
+                        <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./index.html">Inicio</a></li>
+                        <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/educacion.html">Educacion</a></li>
+                        <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/servicios.html">Servicios</a></li>
+                        <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/institucional.html">Institucional</a></li>
+                        <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                  </li>
+              </div>
+            <!--Menu Desktop-->
+            <ul id="menu_desktop" class="listas_nav">
                 <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./index.html">Inicio</a></li>
                <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/educacion.html">Educacion</a></li>
                <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/servicios.html">Servicios</a></li>
                <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/institucional.html">Institucional</a></li>
                <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/contacto.html">Contacto</a></li>
             </ul>
-        </div>
-      </div>
-    <!--Menu Desktop-->
-    <ul id="menu_desktop" class="listas_nav">
-        <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./index.html">Inicio</a></li>
-       <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/educacion.html">Educacion</a></li>
-       <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/servicios.html">Servicios</a></li>
-       <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/institucional.html">Institucional</a></li>
-       <li class="listas_flotantes listas_nav_links"><a class="links_menu" href="./pages/contacto.html">Contacto</a></li>
-    </ul>
-</nav>
-<body>
+        </nav>
+    </header>
 <!--Inicio de la pagina-->
-    <article>
-<!--Video del banner-->
-        <section class="banner">
-            <video width="544px" height="300px" autoplay muted controls src="./fotos_y_videos/videoplayback.mp4">Video de banner</video>
-        </section>
-<!--Certificaciones-->
-        <section class="texto_index_grande">
-            <h1>
-                Nuestras Certificaciones:
-            </h1>
-            <ul  class="listas_cert">
-                <li class="texto_index listas_flotantes"><img class="microsoft" src="./fotos_y_videos/microsoft.webp" alt="Microsoft"></li>
-                <li class="texto_index"><img class="microsoft" src="./fotos_y_videos/academia-sap.jpg" alt="Academia-SAP"></li>
-            </ul>
-        </section>
-<!--Clientes-->
-        <section class="texto_index_grande">   
-            <h2>Clientes satisfechos</h2>
-            <ul class="listas_clientes_desktop lista_clientes_mobile lista_clientes_tablet">
-            <li class="listas_flotantes texto_index lista_clientes"><img class="persona1" src="./fotos_y_videos/persona1.jpg" alt="persona 1"><p>Muy satisfecho con los cursos, el material era claro y los profesores explicaban todo hasta el minimo detalle. Se respondian a las dudas en el momento y las correciones eran claras y concisas.</p>
-            </li>
-            <li class="listas_flotantes texto_index lista_clientes"><img class="persona2" src="./fotos_y_videos/persona2.jpg" alt="persona 2"><p>Mi empresa me hizo hacer este curso por la experiencia y la verdad es que quedamos muy satisfechos con los resultados, ya estamos pensando en implementarlo para el resto de los trabajadores.</p>
-            </li>
-            <li class="texto_index lista_clientes"><img class="persona3" src="./fotos_y_videos/persona3.jpg" alt="persona 3"><p>Empece estos cursos sin saber nada del tema y ahora estoy trabajando de esto y gran parte de la ayuda la tuve por la bolsa de trabajo de la pagina que me permitio dar mi primer paso al mundo laboral.</p>
-            </li>
-            </ul> 
-        </section>
-<!--Redes-->
-        <section class="texto_index_grande">  
-            <h3 class="titulo">Nuestras redes</h3>
-            <ul class="lista_redes">
-                <li class="listas_flotantes links_redes"><a class="boton_redes"><img class="facebook" src="./fotos_y_videos/facebook-logo.png" alt="Facebook"><p>Facebook</p></a></li>
-                <li class="listas_flotantes links_redes"><a class="boton_redes"><img class="instagram" src="./fotos_y_videos/instagram-logo.png" alt="Instagram"><P>Instagram</P></a></li>
-                <li class="listas_flotantes links_redes"><a class="boton_redes"><img class="twitter" src="./fotos_y_videos/twitter-logo-1.png" alt="Twitter"><p>Twitter</P></a></li>
-            </ul>
-        </section>
-    </article>
-    <!--Final de la pagina-->
+    <main>
+        <article>
+            <!--Video del banner-->
+            <section class="banner">
+                <video width="544px" height="300px" autoplay muted controls src="./fotos_y_videos/videoplayback.mp4">Video de banner</video>
+            </section>
+            <!--Certificaciones-->
+            <section class="texto_index_grande">
+                <h1>
+                    Nuestras Certificaciones:
+                </h1>
+                <ul  class="listas_cert">
+                    <li class="texto_index listas_flotantes"><img class="microsoft" src="./fotos_y_videos/microsoft.webp" alt="Microsoft"></li>
+                    <li class="texto_index"><img class="microsoft" src="./fotos_y_videos/academia-sap.jpg" alt="Academia-SAP"></li>
+                </ul>
+            </section>
+            <!--Clientes-->
+            <section class="texto_index_grande">   
+                <h2>Clientes satisfechos</h2>
+                <ul class="listas_clientes_desktop lista_clientes_mobile lista_clientes_tablet">
+                <li class="listas_flotantes texto_index lista_clientes"><img class="persona1" src="./fotos_y_videos/braga.jpg" alt="persona 1"><p>Muy satisfecho con los cursos, el material era claro y los profesores explicaban todo hasta el minimo detalle. Se respondian a las dudas en el momento y las correciones eran claras y concisas.</p>
+                </li>
+                <li class="listas_flotantes texto_index lista_clientes"><img class="persona2" src="./fotos_y_videos/fotito-f-micaela.jpg" alt="persona 2"><p>Mi empresa me hizo hacer este curso por la experiencia y la verdad es que quedamos muy satisfechos con los resultados, ya estamos pensando en implementarlo para el resto de los trabajadores.</p>
+                </li>
+                <li class="texto_index lista_clientes"><img class="persona3" src="./fotos_y_videos/murillo.jpg" alt="persona 3"><p>Empece estos cursos sin saber nada del tema y ahora estoy trabajando de esto y gran parte de la ayuda la tuve por la bolsa de trabajo de la pagina que me permitio dar mi primer paso al mundo laboral.</p>
+                </li>
+                </ul> 
+            </section>
+            <!--Redes-->
+            <section class="texto_index_grande">  
+                <h3 class="titulo">Nuestras redes</h3>
+                <ul class="lista_redes">
+                    <li class="listas_flotantes links_redes"><a class="boton_redes"><img class="facebook" src="./fotos_y_videos/facebook-logo.png" alt="Facebook"><p>Facebook</p></a></li>
+                    <li class="listas_flotantes links_redes"><a class="boton_redes"><img class="instagram" src="./fotos_y_videos/instagram-logo.png" alt="Instagram"><P>Instagram</P></a></li>
+                    <li class="listas_flotantes links_redes"><a class="boton_redes"><img class="twitter" src="./fotos_y_videos/twitter-logo-1.png" alt="Twitter"><p>Twitter</P></a></li>
+                </ul>
+            </section>
+        </article>
+        <!--Final de la pagina-->
+    </main>
+    
     <footer class="stilo_footer">
         <p>Todos los derechos Reservados a compania anonima 2023</p>
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -229,11 +229,11 @@ table, tr, td {
 }
 
 .persona2 {
-  width: 20em;
+  width: 15em;
 }
 
 .persona3 {
-  width: 26.55em;
+  width: 15em;
 }
 
 .microsoft {
@@ -241,7 +241,7 @@ table, tr, td {
 }
 
 .lider1 {
-  width: 15em;
+  width: 20em;
 }
 
 .lider2 {
@@ -249,7 +249,7 @@ table, tr, td {
 }
 
 .lider3 {
-  width: 26.55em;
+  width: 20em;
 }
 
 .articulo_servicios {
@@ -295,6 +295,9 @@ table, tr, td {
     padding-left: 1em;
     padding-right: 1em;
   }
+  .dropdown-menu.show {
+    display: flex;
+  }
   #menu_mobile {
     display: block;
   }
@@ -311,7 +314,7 @@ table, tr, td {
     border-bottom: solid black 1px;
     margin-bottom: 3em;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top: 0px;
     background: gainsboro;
@@ -351,7 +354,7 @@ table, tr, td {
     border-bottom: solid black 1px;
     margin-bottom: 3em;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .btn {
     width: 10em;
